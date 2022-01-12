@@ -1,0 +1,29 @@
+.dateAndTimeContainer{
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 5px;
+  background: #93a007;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.dateAndTimeContainer > span {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.arrayConatiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: 800;
+}
+.randomContainer{
+    color:thistle;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+}

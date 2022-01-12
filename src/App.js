@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
+import InputContainer from './InputContainer';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='heading'>Ramp Task</h1>
+      <InputContainer input="" />
+      <InputContainer input={["SYED","ALI","IRTAZA"]} />
+      <InputContainer input="This is my ramp task" /> 
     </div>
   );
 }
